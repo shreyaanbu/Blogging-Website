@@ -16,8 +16,25 @@
 }
 
 body{
-    padding-bottom: 50px;
+    padding: 0px 50px 50px 50px;
 }
 .white-link{
     color:white;
+}
+
+.card{
+    width:450px;
+    
+    margin-bottom:10px;
+}
+
+.card-img-top{
+    width:450px;
+}
+.cards{
+    display:flex;
+    gap:20px;
+    flex-direction: row;
+    padding:20px;
+    flex-wrap: wrap;
 }
